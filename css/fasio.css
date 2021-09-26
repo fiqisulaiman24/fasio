@@ -1,0 +1,489 @@
+/*
+	Author & Created by : Fiqi Sulaiman;
+*/
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins',sans-serif;
+}
+
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../img/spin.gif');
+   background-repeat: no-repeat; 
+   background-color: rgba(26, 54, 101, 1);
+   background-position: center;
+}
+
+/* ==== Navbar ==== */
+.navbar-item.fasio__logo{
+	font-size: 33px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	margin-left: 0;
+	font-weight: 600;
+}
+
+.navbar-item.fasio__logo:hover{
+	color: #fff;
+}
+
+.navbar-burger span{
+	color: #fff;
+}
+
+.navbar-burger{
+	height: 5rem;
+}
+
+.hero .navbar{
+	min-height: 5.25rem;
+}
+
+.navbar-item{
+	color: #fff;
+}
+
+a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active {
+    background-color: transparent;
+    color: #fff;
+}
+
+.button.fasio__enquire__btn{
+	border-radius: 0;
+	border:1px solid #f69131;
+	background: #f69131;
+	padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.button.fasio__enquire__btn span{
+	color: #fff;
+	font-weight: 500;
+}
+
+@media screen and (min-width: 1088px){
+	.navbar-item {
+	    display: flex;
+	    color: #fff;
+	    margin-left: 28px;
+	}
+}
+
+@media screen and (max-width: 1087px){
+	.navbar-menu {
+	    background: transparent;
+	    box-shadow: none;
+	}
+}
+/* ==== Navbar ==== */
+
+/* ==== Hero ==== */
+.fasio__hero{
+	background-image: url('../img/kuli-6.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+
+.fasio__hero .hero-head{
+	background: rgba(26, 54, 101, 0.8);
+}
+
+.fasio__hero .hero-body{
+	background: rgba(26, 54, 101, 0.8);
+}
+
+.title.fasio__headline{
+	color: #fff;
+	font-weight: 700;
+	font-size: 58px;
+	line-height: 1.3;
+}
+
+.subtitle.fasio__tagline{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 12px;
+	padding-bottom: 5px;
+	line-height: 1.5;
+}
+
+.button.fasio__cta__header{
+	border-radius: 0;
+	border:1px solid #f69131;
+	background: #f69131;
+	padding-left: 2.30rem;
+    padding-right: 2.30rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.button.fasio__cta__header span{
+	color: #fff;
+	font-weight: 400;
+}
+/* ==== Hero ==== */
+
+/* ==== Section About ==== */
+.container.fasio__about__content{
+	padding-top: 1.75rem;
+	padding-bottom: 1.75rem;
+}
+
+.fasio__about__content_1{
+	padding-top: 8.30rem;
+}
+
+.title.fasio__about__title{
+	color: #1a3665;
+	font-weight: 700;
+	font-size: 38px;
+}
+
+.fasio__about__subtit{
+	color: #1a3665;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.8;
+}
+
+.button.fasio__about__more{
+	border-radius: 0;
+	border:1px solid #f69131;
+	background: #f69131;
+	margin-top: 2rem;
+	padding-left: 2.30rem;
+    padding-right: 2.30rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.button.fasio__about__more span{
+	color: #fff;
+	font-weight: 400;
+}
+/* ==== Section Services ==== */
+.section.fasio__section__services{
+	background: rgba(26, 54, 101, 1);
+}
+
+.container.fasio__services__content{
+	padding-top: 1.75rem;
+	padding-bottom: 1.75rem;
+}
+
+.title.fasio__services__title{
+	color: #fff;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.media-content{
+	overflow: hidden;
+}
+.title.fasio__services__head{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.fasio__services__content{
+	font-weight: 500;
+	font-size: 14px;
+	color: #c1c1c1;
+}
+/* ==== Section Services ==== */
+
+/* ==== Section Policies ==== */
+.section.fasio__section__policies{
+	background: #f6f8fa;
+}
+
+.container.fasio__policies__content{
+	padding-top: 1.75rem;
+	padding-bottom: 1.75rem;
+}
+
+.title.fasio__policies__title{
+	color: #1a3665;
+	font-weight: 700;
+	font-size: 38px;
+	text-align: left;
+}
+
+.card.fasio__policies__card{
+	box-shadow: 0 5px 15px rgb(10 10 10 / 10%), 0 0 0 0px rgb(10 10 10 / 10%);
+}
+
+.fasio__policies__round{
+	width: 60px;
+	height: 60px;
+	background:#1a3665;
+	border-radius: 50em;
+	display: block;
+	margin:auto;
+	margin-bottom: 1rem;
+}
+
+.fasio__policies__round i{
+	position: relative;
+    color: #fff;
+    left: 31%;
+    top: 30%;
+    font-size: 25px;
+}
+
+.slick-prev{
+    left: -50px !important;
+}
+
+.slick-next {
+    right: -50px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1 !important;
+    color: #1a3665 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.title.fasio__policies__head{
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.fasio__policies__content{
+	font-weight: 500;
+	font-size: 14px;
+	color: #c1c1c1;
+	text-align: center;
+}
+/* ==== Section Policies ==== */
+
+/* ==== Section Sustain ==== */
+.container.fasio__sustain__content{
+	padding-top: 1.75rem;
+	padding-bottom: 1.75rem;
+}
+
+.title.fasio__sustain__title{
+	color: #1a3665;
+	font-weight: 700;
+	font-size: 38px;
+	text-align: left;
+}
+
+.fasio__sustain__card{
+	border-radius: 0px;
+	box-shadow: none;
+	background: rgba(26, 54, 101, 0.1);
+}
+
+.card.is-horizontal {
+  flex-direction: row;
+  display: flex;
+  flex-basis: 50ex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  box-shadow: none;
+}
+
+.card.is-horizontal {
+  flex-direction: row;
+  display: flex;
+  flex-basis: 50ex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  box-shadow: none;
+}
+
+.card.is-horizontal.is-half .card-image {
+    flex: 6;
+}
+.card.is-horizontal.is-half .card-content {
+    flex: 6;
+}
+
+.card.is-horizontal.is-quarter .card-image {
+    flex: 3;
+}
+
+.card.is-horizontal.is-quarter .card-content {
+    flex: 9;
+}
+
+.card.is-horizontal.is-third .card-image {
+    flex: 4;
+}
+.card.is-horizontal.is-third .card-content {
+    flex: 8;
+    /*margin-top:0px;*/
+}
+
+.card.is-horizontal.is-twothird .card-image {
+    flex: 8;
+}
+.card.is-horizontal.is-twothird .card-content {
+    flex: 4;
+}
+
+.button.fasio__sustain__more{
+	border-radius: 0;
+	margin-top: 10px;
+	border:1px solid rgba(26, 54, 101, 1);
+	background: rgba(26, 54, 101, 1);
+	padding-left: 2.30rem;
+    padding-right: 2.30rem;
+    padding-top: 1.30rem;
+    padding-bottom: 1.30rem;
+}
+
+.button.fasio__sustain__more span{
+	color: #fff;
+	font-weight: 400;
+}
+/* ==== Section Sustain ==== */
+
+/* ==== Section Enquire ==== */
+.hero.fasio__enquire__hero{
+	background-image: url('../img/kuli-2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-body{
+	background: rgba(246, 145, 49, 0.7);
+}
+
+.title.fasio__enquire__title{
+	color: #fff;
+	font-weight: 700;
+	font-size: 32px;
+	text-align: left;
+}
+
+.field.is-horizontal{
+	margin-bottom: 1.75rem;
+}
+
+.fasio__enquire__input{
+	border: 1px solid #f69131;
+	border-radius: 0px;
+	background: #ddd;
+	box-shadow: none;
+	height: 3.25em;
+}
+
+::placeholder{
+	font-size: 14px;
+	font-family: 'Poppins',sans-serif;
+}
+
+.button.fasio__enquire__submit{
+	border-radius: 0;
+	margin-top: 10px;
+	border:1px solid rgba(26, 54, 101, 1);
+	background: rgba(26, 54, 101, 1);
+	padding-left: 2.75rem;
+    padding-right: 2.75rem;
+    padding-top: 1.50rem;
+    padding-bottom: 1.50rem;
+}
+
+.button.fasio__enquire__submit span{
+	color: #fff;
+	font-weight: 400;
+}
+/* ==== Section Enquire ==== */
+
+/* ==== Footer ==== */
+.footer.fasio__footer{
+	background: rgba(26, 54, 101, 1);
+	padding:4rem 1.5rem 2rem;
+}
+
+.title.fasio__footer__logo{
+	color: #f69131;
+	text-transform: uppercase;
+	font-size: 22px;
+	padding-bottom: 15px;
+}
+
+.subtitle.fasio__footer__text{
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.5;
+	padding-top: 10px;
+	/*text-align: justify;*/
+}
+
+.title.fasio__footer__menutit{
+	color: #fff;
+	font-size: 18px;
+}
+
+.content ul.fasio__footer__menu{
+	margin-left: 0;
+}
+
+.fasio__footer__menu li{
+	list-style: none;
+	color: #fff;
+	line-height: 2.5;
+}
+
+.fasio__footer__menu li > i {
+	color: #f69131;
+	font-size: 25px;
+}
+
+.social-circle{
+	background: whitesmoke;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50px; /* the magic */
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 100px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	margin: 0 auto 10px;
+}
+
+.fasio__gold__color {
+	color: #f69131;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 1.2em;
+  left: 2em;
+  text-decoration: none;
+  color: #f69131;
+  background: rgba(26, 54, 101, 1);
+  font-size: 10px;
+  padding: 1em;
+  display: none;
+  border-radius: 50em;
+  border:2px solid #fff;
+}
+
+.go-top:hover{
+	color: #fff;
+}
